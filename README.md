@@ -15,7 +15,7 @@ This project analyzes the [Movies Metadata Cleaned Dataset (1900–2025)](https:
 ## Dataset
 
 * Movies Metadata Cleaned Dataset (1900–2025) | [Kaggle](https://www.kaggle.com/datasets/mustafasayed1181/movies-metadata-cleaned-dataset-19002025/)
-* CPI data (1997–2025) | [US Bureau of Labor Statistics](https://www.bls.gov/cpi/) — `cu.data.0.Current` flat file
+* CPI data (1997–2025) | [US Bureau of Labor Statistics](https://www.bls.gov/cpi/) — `cu.data.0.Current` flat file (https://download.bls.gov/pub/time.series/cu/)
 * Historical CPI (pre-1997) | [Federal Reserve Bank of Minneapolis](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1800-)
 
 The raw dataset contains 946,460 records. After preprocessing, the main analysis uses **365,032 films** (1930–2025). The scenario analysis notebook filters further to **88,352 US feature films released since 2000**.
